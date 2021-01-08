@@ -14,7 +14,17 @@ h2 {
         sans-serif;
     font-weight: 900;
     font-size: 4vw;
-    color: #212121
+    color: #212121;
+}
+
+h3 {
+    font-family: 'bulo-black',
+        sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    color: #212121;
+
+
 }
 
 p {
@@ -246,33 +256,32 @@ button {
         left: 2vw;
     }
 
+    h2 {
+        font-size: 2vw;
+        color: #004936;
+        margin: 0;
+        position: relative;
 
-}
-
-h2 {
-    font-family: 'Heebo',
-        sans-serif;
-    font-weight: 900;
-    font-size: 2vw;
-    color: #212121
-}
-
-p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 1vw;
-    color: #212121
-}
+    }
 
 
 
+    p {
+        font-size: 1vw;
+        padding: 0;
+        position: relative;
+        text-align: left;
+    }
 
-footer {
-    position: relative;
-    bottom: -30vw;
-    left: 1vw;
-}
+    footer {
+        position: relative;
+        bottom: -30vw;
+        left: 1vw;
+    }
 
-footer p {
-    text-align: center;
+    footer p {
+        text-align: center;
+
+    }
 
 }
