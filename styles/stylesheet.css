@@ -56,6 +56,12 @@
     color: #004936;
 }
 
+@media only screen and (max-width: 800px) {
+    #billederafmig {
+        display: none;
+    }
+}
+
 #theird_section {
     position: relative;
     top: 60vw;
@@ -317,7 +323,6 @@ footer p {
         background-color: #ED6B50;
         position: absolute;
         left: 5vw;
-        top: vw;
         animation: slide 2s infinite;
 
     }
@@ -461,8 +466,6 @@ footer p {
         position: relative;
         top: 25vw;
         background-color: #004936;
-        padding: 10vw;
-        display: grid;
         height: 28vw;
     }
 
@@ -502,11 +505,42 @@ footer p {
         border: 0.1vw solid;
         transition-duration: 0.4s;
         top: -1vw;
+        left: -1vw;
     }
 
+
     #second_section button:hover {
-        background-color: hotpink;
+        background-color: whitesmoke;
         border-style: hidden;
+        color: #004936;
+
+    }
+
+    .col #karo1 {
+        position: relative;
+        width: 70%;
+        left: 10vw;
+        top: -2vw;
+        z-index: 0;
+
+    }
+
+    .col #karo2 {
+        position: relative;
+        width: 60%;
+        top: 0vw;
+        left: 5vw;
+
+
+    }
+
+    .col #karo3 {
+        position: relative;
+        width: 80%;
+        left: -6vw;
+        top: -30vw;
+        box-shadow: 1vw 1vw #DDDFDE;
+
 
     }
 
@@ -545,7 +579,6 @@ footer p {
         font-family: 'Heebo', sans-serif;
         font-weight: 900;
         font-size: 1vw;
-        color: ;
         position: relative;
         border: 0.1vw solid;
         transition-duration: 0.4s;
@@ -591,11 +624,4 @@ footer p {
             height: 39vw;
         }
     }
-}
-
-
-
-
-
-
 }
