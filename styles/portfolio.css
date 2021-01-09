@@ -326,7 +326,7 @@ p {
         width: 15vw;
         opacity: 0;
         transition: .5s ease;
-        background-color: #141414;
+        background-color: #d6cb00;
         border-radius: 50%;
     }
 
@@ -335,7 +335,7 @@ p {
     }
 
     .text4 {
-        color: #d6cb00;
+        color: #212121;
         font-size: 2vw;
         line-height: 2vw;
         position: absolute;

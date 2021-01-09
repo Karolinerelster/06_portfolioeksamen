@@ -196,8 +196,8 @@ footer p {
 
 @media only screen and (min-width: 800px) {
 
-    #box_sprite {
-        /* animation: pulse 2s infinite;
+    #box_sprite2 {
+        animation: pulse 2s infinite;
 
     }
 
@@ -213,7 +213,7 @@ footer p {
         100% {
             transform: scale(0.9);
         }
-*/
+
 
     }
 
@@ -240,7 +240,7 @@ footer p {
         font-size: 3vw;
         position: relative;
         text-align: center;
-        top: -36vw;
+        top: -38vw;
         left: 0vw;
         z-index: -2;
     }
