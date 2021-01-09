@@ -307,16 +307,16 @@ footer p {
 #web9 {
     width: 50%;
     position: relative;
-    top: 0vw;
+    top: 4vw;
     left: 5vw;
 }
 
 #web10 {
-    width: 60%;
+    width: 50%;
     position: relative;
-    top: -10vw;
-    left: 0vw;
-    z-index: ;
+    top: 17vw;
+    left: -20vw;
+    z-index: 1;
     box-shadow: -1vw 1vw #272B33;
 
 
@@ -325,8 +325,8 @@ footer p {
 #web11 {
     width: 30%;
     position: relative;
-    top: -5vw;
-    left: -5vw;
+    top: -11vw;
+    left: 30vw;
 
 }
 
