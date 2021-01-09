@@ -109,6 +109,11 @@ p {
 
 
 
+    .col {
+        padding: 2vw;
+
+    }
+
     #overskrift {
         font-size: 2vw;
         color: #004936;

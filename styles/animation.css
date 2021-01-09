@@ -141,17 +141,17 @@ footer p {
     #second_section {
         position: relative;
         top: vw;
-        height: 35vw;
+        height: 40vw;
     }
 
     #second_section h3 {
         position: relative;
-        top: 4vw;
+        top: 2vw;
     }
 
     #second_section p {
         position: relative;
-        top: 4vw;
+        top: 2vw;
     }
 
     #second_section .section_wrapper {
@@ -161,27 +161,29 @@ footer p {
     }
 
     #web1 {
-        width: 60%;
+        width: 40%;
         position: relative;
         left: 5vw;
-        top: -2vw;
+        top: 0vw;
     }
 
     #web2 {
         width: 30%;
         position: relative;
-        top: 10vw;
-        left: -15vw;
-        z-index: 1;
+        top: -1vw;
+        left: 6vw;
+        z-index: -1;
 
     }
 
     #web3 {
-        width: 30%;
+        width: 40%;
         position: relative;
-        top: -20vw;
-        left: 35vw;
-        z-index: 2;
+        top: -6vw;
+        left: 20vw;
+        z-index: 1;
+        box-shadow: 1vw -1vw #004936;
+
     }
 
 
@@ -189,7 +191,7 @@ footer p {
         position: relative;
         top: 2vw;
         background-color: #004936;
-        height: 55vw;
+        height: 60vw;
     }
 
     #theird_section .section_wrapper {
@@ -224,131 +226,125 @@ footer p {
     }
 
     #web5 {
-        width: 60%;
+        width: 70%;
         position: relative;
-        top: 0vw;
-        left: 10vw;
-        z-index: 2;
+        top: -10vw;
     }
 
     #web6 {
-        width: 35%;
+        width: 70%;
         position: relative;
-        top: -7vw;
-        z-index: 1;
-        left: -5vw;
+        top: -10vw;
+        left: 5vw;
     }
 
     #web7 {
-        width: 60%;
-        position: relative;
-        top: -30vw;
-    }
-
-    #web8 {
-        width: 30%;
-        position: relative;
-        top: -15vw;
-        left: -25vw;
-        transform: rotate(90deg);
-
-
-    }
-
-
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
-
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
-    }
-
-    #prototype {
-        position: relative;
-        top: -12vw;
-        left: -1vw;
-
-    }
-
-    #wireframe {
-        position: relative;
-        top: 1.5vw;
-        left: -14vw;
-    }
-
-    #fourth_section {
-        position: relative;
-        top: 10vw;
-        height: 35vw;
-
-
-    }
-
-    #fourth_section .col {
-        position: relative;
-        top: 3vw;
-        height: 20vw;
-
-    }
-
-
-    #fourth_section .section_wrapper {
-        display: grid;
-        grid-template-columns: 3fr 5fr;
-        margin-left: 7vw;
-    }
-
-    #web9 {
-        width: 30%;
+        width: 70%;
         position: relative;
         top: -10vw;
-        left: 25vw;
-        box-shadow: -1vw 1vw #272B33;
-        z-index: 1;
     }
 
-    #web10 {
-        width: 60%;
-        position: relative;
-        top: 5vw;
-        left: -15vw;
-    }
 
-    #web11 {
-        width: 40%;
-        position: relative;
-        top: -5vw;
-        left: 20vw;
-    }
 
-    .col p {
-        font-size: 1vw;
-        text-align: justify;
-        margin: 0vw;
-        padding-right: 5vw;
-    }
+}
 
-    footer {
-        position: relative;
-        top: -2vw;
-        height: 0vw;
-    }
 
-    footer p {
-        font-size: 1.5vw;
-    }
+#theird_section button {
+    background-color: transparent;
+    border-color: whitesmoke;
+    padding: 1vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 1vw;
+    color: whitesmoke;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+    width: 11vw;
+}
+
+#theird_section button:hover {
+    background-color: whitesmoke;
+    border-style: hidden;
+    color: #004936;
+}
+
+#prototype {
+    position: relative;
+    top: -12vw;
+    left: -1vw;
+
+}
+
+#wireframe {
+    position: relative;
+    top: 1.5vw;
+    left: -14vw;
+}
+
+#fourth_section {
+    position: relative;
+    top: 10vw;
+    height: 35vw;
+
+
+}
+
+#fourth_section .col {
+    position: relative;
+    top: 3vw;
+    height: 20vw;
+
+}
+
+
+#fourth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    margin-left: 7vw;
+}
+
+#web9 {
+    width: 50%;
+    position: relative;
+    top: 0vw;
+    left: 5vw;
+}
+
+#web10 {
+    width: 60%;
+    position: relative;
+    top: -10vw;
+    left: 0vw;
+    z-index: ;
+    box-shadow: -1vw 1vw #272B33;
+
+
+}
+
+#web11 {
+    width: 30%;
+    position: relative;
+    top: -5vw;
+    left: -5vw;
+
+}
+
+.col p {
+    font-size: 1vw;
+    text-align: justify;
+    margin: 0vw;
+    padding-right: 5vw;
+}
+
+footer {
+    position: relative;
+    top: -2vw;
+    height: 0vw;
+}
+
+footer p {
+    font-size: 1.5vw;
+}
 
 }
