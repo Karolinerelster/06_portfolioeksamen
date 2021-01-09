@@ -196,27 +196,6 @@ footer p {
 
 @media only screen and (min-width: 800px) {
 
-    #box_sprite2 {
-        animation: pulse 2s infinite;
-
-    }
-
-    @keyframes pulse {
-        0% {
-            transform: scale(0.9);
-        }
-
-        70% {
-            transform: scale(1);
-        }
-
-        100% {
-            transform: scale(0.9);
-        }
-
-
-    }
-
     #box_container2 img {
         background-size: contain;
 
@@ -246,7 +225,7 @@ footer p {
     }
 
     #first_section {
-        height: 13vw;
+        height: 20vw;
     }
 
     #second_section {
@@ -380,11 +359,4 @@ footer p {
             height: 39vw;
         }
     }
-}
-
-
-
-
-
-
 }
