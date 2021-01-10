@@ -466,20 +466,20 @@ footer p {
         position: relative;
         top: 25vw;
         background-color: #004936;
-        height: 28vw;
+        height: 20vw;
     }
 
     #second_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 5fr 3fr;
     }
 
     #second_section .col {
-        background-image: url(pictures/karoline_relster.jpg);
-        width: 25vw;
-        height: 25vw;
-        border-radius: 50%;
-        background-size: cover;
+        width: 35vw;
+        height: 35vw;
+        left: 0vw;
+        top: -5vw;
+
     }
 
     #second_section h2 {
@@ -489,8 +489,8 @@ footer p {
 
     #second_section p {
         color: whitesmoke;
-        line-height: 2.5vw;
-        font-size: 1.5vw;
+        line-height: 1.8vw;
+        font-size: 1vw;
     }
 
     #second_section button {
@@ -505,7 +505,7 @@ footer p {
         border: 0.1vw solid;
         transition-duration: 0.4s;
         top: -1vw;
-        left: -1vw;
+        left: -15vw;
     }
 
 
@@ -516,29 +516,11 @@ footer p {
 
     }
 
-    .col #karo1 {
-        position: relative;
-        width: 70%;
-        left: 10vw;
-        top: -2vw;
-        z-index: 0;
-
-    }
-
-    .col #karo2 {
-        position: relative;
-        width: 60%;
-        top: 0vw;
-        left: 5vw;
-
-
-    }
-
     .col #karo3 {
         position: relative;
         width: 80%;
-        left: -6vw;
-        top: -30vw;
+        left: 0vw;
+        top: -3vw;
         box-shadow: 1vw 1vw #DDDFDE;
 
 
@@ -548,6 +530,11 @@ footer p {
         position: relative;
         top: 27vw;
         height: 0vw;
+    }
+
+    #section_wrapper3 {
+        position: relative;
+        left: 20vw;
     }
 
     #portfolio {
@@ -560,13 +547,13 @@ footer p {
     }
 
     #portfoliotekst {
-        margin-left: 15vw;
-        margin-right: 15vw;
         position: relative;
         top: 5vw;
         padding-bottom: 15vw;
-        line-height: 2.5vw;
-        font-size: 1.5vw;
+        line-height: 1.8vw;
+        font-size: 1vw;
+        width: 30vw;
+
     }
 
     #theird_section .section_wrapper {
