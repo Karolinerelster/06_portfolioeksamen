@@ -439,6 +439,7 @@ footer p {
         position: absolute;
         left: 40vw;
         top: 0vw;
+        animation: shake 2s infinite;
     }
 
     #box_sprite2 img {
@@ -472,14 +473,6 @@ footer p {
     #second_section .section_wrapper {
         display: grid;
         grid-template-columns: 5fr 3fr;
-    }
-
-    #second_section .col {
-        width: 35vw;
-        height: 35vw;
-        left: 0vw;
-        top: -5vw;
-
     }
 
     #second_section h2 {
@@ -518,7 +511,7 @@ footer p {
 
     .col #karo3 {
         position: relative;
-        width: 80%;
+        width: 60%;
         left: 0vw;
         top: -3vw;
         box-shadow: 1vw 1vw #DDDFDE;
@@ -592,23 +585,71 @@ footer p {
         font-size: 1.5vw;
     }
 
-    .hop {
-        animation-name: hop_kf;
-        animation-duration: 0.8s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in;
-        animation-direction: alternate;
 
+}
+
+.hop {
+    animation-name: hop_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+@keyframes hop_kf {
+    0% {
+        transform: translateY(-4vw);
     }
 
-    @keyframes hop_kf {
-        0% {
-            transform: translateY(-4vw);
-        }
+    100% {
+        transform: translateY(10vw);
+        height: 39vw;
+    }
+}
 
-        100% {
-            transform: translateY(10vw);
-            height: 39vw;
-        }
+@keyframes shake {
+    0% {
+        transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
     }
 }

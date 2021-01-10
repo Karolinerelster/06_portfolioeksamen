@@ -163,11 +163,12 @@ footer p {
     #billederafmig {
         position: relative;
         top: -6vw;
+        width: 30%;
     }
 
     .col #karo1 {
         position: relative;
-        width: 70%;
+        width: 30%;
         left: 10vw;
         top: -2vw;
         z-index: 0;
@@ -176,14 +177,14 @@ footer p {
 
     .col #karo2 {
         position: relative;
-        width: 60%;
+        width: 30%;
         top: 0vw;
         left: 5vw;
     }
 
     .col #karo3 {
         position: relative;
-        width: 80%;
+        width: 20%;
         left: -6vw;
         top: -30vw;
         box-shadow: 1vw 1vw #DDDFDE;
